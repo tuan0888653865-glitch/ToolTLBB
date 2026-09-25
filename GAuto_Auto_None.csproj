@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{77F1FC7A-35F8-40FC-A19A-5D3270B10708}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GAuto_Auto_None</RootNamespace>
+    <AssemblyName>GAuto_Auto_None</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>GAuto_Auto_None.ico</ApplicationIcon>
+    <StartupObject>ns0.Class211</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\GAuto\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ObjectListView">
+      <HintPath>..\..\GAuto\ObjectListView.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\GAuto\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ns0\AssemblyInfoAttribute.cs" />
+    <Compile Include="ns0\Class0.cs" />
+    <Compile Include="ns0\Class1.cs" />
+    <Compile Include="ns0\Class10.cs" />
+    <Compile Include="ns0\Class100.cs" />
+    <Compile Include="ns0\Class101.cs" />
+    <Compile Include="ns0\Class106.cs" />
+    <Compile Include="ns0\Class107.cs" />
+    <Compile Include="ns0\Class108.cs" />
+    <Compile Include="ns0\Class109.cs" />
+    <Compile Include="ns0\Class11.cs" />
+    <Compile Include="ns0\Class110.cs" />
+    <Compile Include="ns0\Class111.cs" />
+    <Compile Include="ns0\Class112.cs" />
+    <Compile Include="ns0\Class113.cs" />
+    <Compile Include="ns0\Class114.cs" />
+    <Compile Include="ns0\Class116.cs" />
+    <Compile Include="ns0\Class117.cs" />
+    <Compile Include="ns0\Class118.cs" />
+    <Compile Include="ns0\Class119.cs" />
+    <Compile Include="ns0\Class12.cs" />
+    <Compile Include="ns0\Class120.cs" />
+    <Compile Include="ns0\Class121.cs" />
+    <Compile Include="ns0\Class122.cs" />
+    <Compile Include="ns0\Class123.cs" />
+    <Compile Include="ns0\Class124.cs" />
+    <Compile Include="ns0\Class125.cs" />
+    <Compile Include="ns0\Class126.cs" />
+    <Compile Include="ns0\Class127.cs" />
+    <Compile Include="ns0\Class128.cs" />
+    <Compile Include="ns0\Class129.cs" />
+    <Compile Include="ns0\Class13.cs" />
+    <Compile Include="ns0\Class130.cs" />
+    <Compile Include="ns0\Class131.cs" />
+    <Compile Include="ns0\Class132.cs" />
+    <Compile Include="ns0\Class133.cs" />
+    <Compile Include="ns0\Class134.cs" />
+    <Compile Include="ns0\Class135.cs" />
+    <Compile Include="ns0\Class136.cs" />
+    <Compile Include="ns0\Class137.cs" />
+    <Compile Include="ns0\Class138.cs" />
+    <Compile Include="ns0\Class139.cs" />
+    <Compile Include="ns0\Class140.cs" />
+    <Compile Include="ns0\Class141.cs" />
+    <Compile Include="ns0\Class142.cs" />
+    <Compile Include="ns0\Class143.cs" />
+    <Compile Include="ns0\Class144.cs" />
+    <Compile Include="ns0\Class145.cs" />
+    <Compile Include="ns0\Class146.cs" />
+    <Compile Include="ns0\Class147.cs" />
+    <Compile Include="ns0\Class148.cs" />
+    <Compile Include="ns0\Class149.cs" />
+    <Compile Include="ns0\Class150.cs" />
+    <Compile Include="ns0\Class151.cs" />
+    <Compile Include="ns0\Class152.cs" />
+    <Compile Include="ns0\Class153.cs" />
+    <Compile Include="ns0\Class154.cs" />
+    <Compile Include="ns0\Class155.cs" />
+    <Compile Include="ns0\Class156.cs" />
+    <Compile Include="ns0\Class157.cs" />
+    <Compile Include="ns0\Class158.cs" />
+    <Compile Include="ns0\Class159.cs" />
+    <Compile Include="ns0\Class161.cs" />
+    <Compile Include="ns0\Class162.cs" />
+    <Compile Include="ns0\Class163.cs" />
+    <Compile Include="ns0\Class165.cs" />
+    <Compile Include="ns0\Class166.cs" />
+    <Compile Include="ns0\Class169.cs" />
+    <Compile Include="ns0\Class17.cs" />
+    <Compile Include="ns0\Class175.cs" />
+    <Compile Include="ns0\Class182.cs" />
+    <Compile Include="ns0\Class2.cs" />
+    <Compile Include="ns0\Class208.cs" />
+    <Compile Include="ns0\Class209.cs" />
+    <Compile Include="ns0\Class210.cs" />
+    <Compile Include="ns0\Class211.cs" />
+    <Compile Include="ns0\Class212.cs" />
+    <Compile Include="ns0\Class213.cs" />
+    <Compile Include="ns0\Class22.cs" />
+    <Compile Include="ns0\Class23.cs" />
+    <Compile Include="ns0\Class24.cs" />
+    <Compile Include="ns0\Class25.cs" />
+    <Compile Include="ns0\Class26.cs" />
+    <Compile Include="ns0\Class27.cs" />
+    <Compile Include="ns0\Class28.cs" />
+    <Compile Include="ns0\Class29.cs" />
+    <Compile Include="ns0\Class3.cs" />
+    <Compile Include="ns0\Class30.cs" />
+    <Compile Include="ns0\Class31.cs" />
+    <Compile Include="ns0\Class32.cs" />
+    <Compile Include="ns0\Class33.cs" />
+    <Compile Include="ns0\Class34.cs" />
+    <Compile Include="ns0\Class35.cs" />
+    <Compile Include="ns0\Class37.cs" />
+    <Compile Include="ns0\Class39.cs" />
+    <Compile Include="ns0\Class4.cs" />
+    <Compile Include="ns0\Class40.cs" />
+    <Compile Include="ns0\Class41.cs" />
+    <Compile Include="ns0\Class43.cs" />
+    <Compile Include="ns0\Class44.cs" />
+    <Compile Include="ns0\Class45.cs" />
+    <Compile Include="ns0\Class46.cs" />
+    <Compile Include="ns0\Class47.cs" />
+    <Compile Include="ns0\Class48.cs" />
+    <Compile Include="ns0\Class49.cs" />
+    <Compile Include="ns0\Class55.cs" />
+    <Compile Include="ns0\Class57.cs" />
+    <Compile Include="ns0\Class58.cs" />
+    <Compile Include="ns0\Class59.cs" />
+    <Compile Include="ns0\Class60.cs" />
+    <Compile Include="ns0\Class61.cs" />
+    <Compile Include="ns0\Class62.cs" />
+    <Compile Include="ns0\Class63.cs" />
+    <Compile Include="ns0\Class64.cs" />
+    <Compile Include="ns0\Class65.cs" />
+    <Compile Include="ns0\Class66.cs" />
+    <Compile Include="ns0\Class67.cs" />
+    <Compile Include="ns0\Class68.cs" />
+    <Compile Include="ns0\Class69.cs" />
+    <Compile Include="ns0\Class7.cs" />
+    <Compile Include="ns0\Class70.cs" />
+    <Compile Include="ns0\Class72.cs" />
+    <Compile Include="ns0\Class73.cs" />
+    <Compile Include="ns0\Class74.cs" />
+    <Compile Include="ns0\Class75.cs" />
+    <Compile Include="ns0\Class79.cs" />
+    <Compile Include="ns0\Class8.cs" />
+    <Compile Include="ns0\Class80.cs" />
+    <Compile Include="ns0\Class81.cs" />
+    <Compile Include="ns0\Class82.cs" />
+    <Compile Include="ns0\Class83.cs" />
+    <Compile Include="ns0\Class89.cs" />
+    <Compile Include="ns0\Class9.cs" />
+    <Compile Include="ns0\Class90.cs" />
+    <Compile Include="ns0\Class91.cs" />
+    <Compile Include="ns0\Class92.cs" />
+    <Compile Include="ns0\Class93.cs" />
+    <Compile Include="ns0\Class94.cs" />
+    <Compile Include="ns0\Class95.cs" />
+    <Compile Include="ns0\Class96.cs" />
+    <Compile Include="ns0\Class97.cs" />
+    <Compile Include="ns0\Class98.cs" />
+    <Compile Include="ns0\Class99.cs" />
+    <Compile Include="ns0\Delegate7.cs" />
+    <Compile Include="ns0\Enum0.cs" />
+    <Compile Include="ns0\Enum22.cs" />
+    <Compile Include="ns0\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmAutoPK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmAutoPK.Designer.cs">
+      <DependentUpon>frmAutoPK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmBuffList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmBuffList.Designer.cs">
+      <DependentUpon>frmBuffList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmCheDo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmCheDo.Designer.cs">
+      <DependentUpon>frmCheDo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmGGConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmGGConfirm.Designer.cs">
+      <DependentUpon>frmGGConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmGiftCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmGiftCode.Designer.cs">
+      <DependentUpon>frmGiftCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmGLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmGLogin.Designer.cs">
+      <DependentUpon>frmGLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmHashPick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmHashPick.Designer.cs">
+      <DependentUpon>frmHashPick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmHotKeys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmHotKeys.Designer.cs">
+      <DependentUpon>frmHotKeys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmItemList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmItemList.Designer.cs">
+      <DependentUpon>frmItemList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmLiteBuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmLiteBuy.Designer.cs">
+      <DependentUpon>frmLiteBuy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmLiteVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmLiteVersion.Designer.cs">
+      <DependentUpon>frmLiteVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmMuaBlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmMuaBlock.Designer.cs">
+      <DependentUpon>frmMuaBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmNapThe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmNapThe.Designer.cs">
+      <DependentUpon>frmNapThe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmNewUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmNewUserInfo.Designer.cs">
+      <DependentUpon>frmNewUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmNVTanThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmNVTanThu.Designer.cs">
+      <DependentUpon>frmNVTanThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmPickSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmPickSession.Designer.cs">
+      <DependentUpon>frmPickSession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmPlayerPick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmPlayerPick.Designer.cs">
+      <DependentUpon>frmPlayerPick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmProfileManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmProfileManager.Designer.cs">
+      <DependentUpon>frmProfileManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmReg.Designer.cs">
+      <DependentUpon>frmReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmScheduler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmScheduler.Designer.cs">
+      <DependentUpon>frmScheduler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmScriptEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmScriptEditor.Designer.cs">
+      <DependentUpon>frmScriptEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmSupport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmSupport.Designer.cs">
+      <DependentUpon>frmSupport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmThongBao_FW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmThongBao_FW.Designer.cs">
+      <DependentUpon>frmThongBao_FW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmUpdateNewVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmUpdateNewVersion.Designer.cs">
+      <DependentUpon>frmUpdateNewVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmUserInfo.Designer.cs">
+      <DependentUpon>frmUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\frmVersions_FW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\frmVersions_FW.Designer.cs">
+      <DependentUpon>frmVersions_FW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\GClass0.cs" />
+    <Compile Include="ns0\GClass1.cs" />
+    <Compile Include="ns0\GClass2.cs" />
+    <Compile Include="ns0\GClass3.cs" />
+    <Compile Include="ns0\Struct0.cs" />
+    <Compile Include="ns0\Struct1.cs" />
+    <Compile Include="ns0\Struct6.cs" />
+    <Compile Include="ns0\Struct7.cs" />
+    <Compile Include="ns0\Struct8.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartBot\AutoSettings.cs" />
+    <Compile Include="SmartBot\GlobalSettings.cs" />
+    <Compile Include="SmartBot\PlayerListItem.cs" />
+    <Compile Include="SmartBot\Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ns0\Class17.resources" />
+    <EmbeddedResource Include="ns0\Class212.resources" />
+    <EmbeddedResource Include="ns0\frmAbout.resources" />
+    <EmbeddedResource Include="ns0\frmAutoPK.resources" />
+    <EmbeddedResource Include="ns0\frmBuffList.resources" />
+    <EmbeddedResource Include="ns0\frmCheDo.resources" />
+    <EmbeddedResource Include="ns0\frmGGConfirm.resources" />
+    <EmbeddedResource Include="ns0\frmGiftCode.resources" />
+    <EmbeddedResource Include="ns0\frmGLogin.resources" />
+    <EmbeddedResource Include="ns0\frmHashPick.resources" />
+    <EmbeddedResource Include="ns0\frmHotKeys.resources" />
+    <EmbeddedResource Include="ns0\frmItemList.resources" />
+    <EmbeddedResource Include="ns0\frmLiteBuy.resources" />
+    <EmbeddedResource Include="ns0\frmLiteVersion.resources" />
+    <EmbeddedResource Include="ns0\frmLogin.resources" />
+    <EmbeddedResource Include="ns0\frmMain.resources" />
+    <EmbeddedResource Include="ns0\frmMuaBlock.resources" />
+    <EmbeddedResource Include="ns0\frmNapThe.resources" />
+    <EmbeddedResource Include="ns0\frmNewUserInfo.resources" />
+    <EmbeddedResource Include="ns0\frmNVTanThu.resources" />
+    <EmbeddedResource Include="ns0\frmPickSession.resources" />
+    <EmbeddedResource Include="ns0\frmPlayerPick.resources" />
+    <EmbeddedResource Include="ns0\frmProfileManager.resources" />
+    <EmbeddedResource Include="ns0\frmReg.resources" />
+    <EmbeddedResource Include="ns0\frmScheduler.resources" />
+    <EmbeddedResource Include="ns0\frmScriptEditor.resources" />
+    <EmbeddedResource Include="ns0\frmSupport.resources" />
+    <EmbeddedResource Include="ns0\frmThongBao_FW.resources" />
+    <EmbeddedResource Include="ns0\frmUpdateNewVersion.resources" />
+    <EmbeddedResource Include="ns0\frmUserInfo.resources" />
+    <EmbeddedResource Include="ns0\frmVersions_FW.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="SmartBot\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
